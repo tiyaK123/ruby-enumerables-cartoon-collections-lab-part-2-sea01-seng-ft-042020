@@ -34,12 +34,7 @@ def find_valid_calls(planeteer_calls)
   count = 0 
   value = nil 
   planeteer_calls.map do |str|
-  while valid_calls.length > count do 
-    if str === valid_calls[count]
-      value = valid_calls[count]
-      return value 
-    end
-  end 
+  
   
 end
 
