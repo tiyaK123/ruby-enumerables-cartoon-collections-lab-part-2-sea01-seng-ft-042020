@@ -38,8 +38,9 @@ value = nil
 planeteer_calls.map do |str|
   if str == valid_calls[count]
     value = str 
-     return str
+     return value
    end
    count += 1 
- end 
+ end
+  value
 end
